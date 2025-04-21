@@ -1,0 +1,9 @@
+astropy==5.2.2
+lumos_sat==1.0.9
+matplotlib==3.7.5
+numpy==1.24.4
+pandas==2.2.3
+pytz==2024.1
+scipy==1.15.1
+sgp4==2.23
+tqdm==4.66.4

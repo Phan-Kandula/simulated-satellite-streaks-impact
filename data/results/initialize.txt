@@ -1,0 +1,1 @@
+A placeholder file for the data/results folder.
