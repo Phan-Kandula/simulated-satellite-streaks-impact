@@ -135,32 +135,6 @@ def make_summer_csv(
     name = file_name + ".csv"
     df.to_csv(name, index=False)
 
-
-def create_directory(
-    folder_name: str):
-    """Create new directories for each month.
-
-    The permission to delete folders is quite powerful and dangerous. It is commented
-    out for safety. If you run this script only once, it is nothing to worry about. If
-    you run this script multiple times, you will get an error if the folder already
-    exists. Either manually delete those folders or uncomment the piece of code that
-    deletes it.
-
-    Parameters
-    ----------
-    - folder_name: name of the folder to create.
-
-    """
-    # Check if the directory exists
-    if os.path.exists(folder_name):
-        # Remove the directory
-        shutil.rmtree(folder_name)
-        print(f"Directory '{folder_name}' already exists and has been deleted.")
-    # Create the new directory
-
-    os.mkdir(folder_name)
-    print(f"Directory '{folder_name}' has been created.")
-
 if __name__ == "__main__":
     # connect to database. And read the columns listed
     conn = sqlite3.connect("baseline_v3.2_10yrs.db")
