@@ -6,8 +6,7 @@ the memory after each month. Furthermore, the next script can also use each mont
 check point to save the progress.
 
 Usage:
-Install scheduler file from [https://s3df.slac.stanford.edu/data/rubin/sim-data/sims_featureScheduler_runs3.2/baseline/baseline_v3.2_10yrs.db]
-and save it to the data folder. Running this script will make a subdirectory for each
+Make sure the scheduler is in the data folder. Running this script will make a subdirectory for each
 year containing scheduler positions for each month. Lines 189 to 192 must be uncommented
 for only the summer schedule.
 """
