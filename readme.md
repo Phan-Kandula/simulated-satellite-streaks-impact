@@ -14,8 +14,10 @@ This repo contains the code used for the analysis of the paper...
 4. Run the streaks.py script in the constellation folder. 
     * Further usage instructions are at the top of the script
 
-5. Run a custom satellite model analysis (optional)
+5. Run a satellite model analysis 
+    * The V2 and V1.5 models are included. The notebooks in the analysis directory use these models for the study.
+   
+7. Run a custom satellite model(optional)
     * If you have a satellite model built from LUMOS, copy one of the analysis notebooks.
     * Replace the default model with your own model.
-    * Alternatively, review our analysis on the Gen 2 model at different heights.
 
