@@ -1,4 +1,4 @@
-"""Formats the LSST scheduler into a structured database for further analysis.
+"""Formats the LSST scheduler into a structured csv for further analysis.
 
 This script converts the scheduler to a csv format and then breaks it down into monthly
 chunks. This can help the next script that calculates streak positions by clearing out
